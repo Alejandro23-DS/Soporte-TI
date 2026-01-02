@@ -133,10 +133,15 @@ Es responsabilidad del soporte TI verificar e instalar los drivers necesarios.
 
 ## 📁 ESTRUCTURA DE CAPTURAS
 screenshots/caso-02/
+
 ├── 01-administrador-dispositivos.png
+
 ├── 02-drivers-faltantes.png
+
 ├── 03-instalacion-drivers.png
+
 ├── 04-drivers-correctos.png
+
 └── 05-resolucion-correcta.png
 
 
