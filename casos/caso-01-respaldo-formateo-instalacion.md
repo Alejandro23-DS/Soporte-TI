@@ -145,7 +145,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 | Archivo | Descripción |
 |------|-----------|
-| `10-instalacion-progreso.png` | Progreso de la instalación |
+| `09-instalacion-progreso.png` | Progreso de la instalación |
 
 ---
 
@@ -170,7 +170,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 | Archivo | Descripción |
 |------|-----------|
-| `13-escritorio-inicial.png` | Escritorio inicial del sistema |
+| `10-escritorio-inicial.png` | Escritorio inicial del sistema |
 
 ---
 
@@ -185,7 +185,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 | Archivo | Descripción |
 |------|-----------|
-| `14-winver.png` | Versión final de Windows |
+| `11-winver.png` | Versión final de Windows |
 
 ---
 
