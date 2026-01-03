@@ -120,7 +120,7 @@ instalar los necesarios para evitar problemas de rendimiento o funcionalidad.
 
 ---
 
-## ESTRUCTURA DE CAPTURAS
+## 📁 ESTRUCTURA DE CAPTURAS
 
 screenshots/caso-02/
 
