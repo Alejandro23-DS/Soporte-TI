@@ -1,137 +1,127 @@
-#  CASO 02 — INSTALACIÓN Y VERIFICACIÓN DE DRIVERS
+# CASO 02 — INSTALACIÓN Y VERIFICACIÓN DE DRIVERS
 
-📄 **Ruta:** `casos/caso-02-instalacion-verificacion-drivers.md`  
- **Entorno de ejecución:** Máquina Virtual (entorno no documentado)
-
----
-
-## 🎯 OBJETIVO
-
-Instalar y verificar los **drivers necesarios del sistema** después de una instalación limpia de Windows, asegurando el correcto funcionamiento del hardware y la estabilidad del equipo.
+Ruta: `casos/caso-02-instalacion-verificacion-drivers.md`  
+Entorno de ejecución: Máquina Virtual (entorno no documentado)
 
 ---
 
-## 🖥️ ESCENARIO
+## OBJETIVO
 
-- **Equipo:** Estación de trabajo institucional (simulada)
-- **Sistema operativo:** Windows 10 / 11
-- **Estado inicial:** Sistema recién instalado (Caso 01)
-- **Contexto:** Post-instalación del sistema operativo
+Instalar y verificar los controladores (drivers) necesarios del sistema después
+de una instalación limpia de Windows, asegurando que todo el hardware sea
+reconocido correctamente y que el sistema funcione de manera estable.
 
 ---
 
-## 🧠 CONTEXTO TÉCNICO
+## ESCENARIO
+
+- Equipo: Estación de trabajo institucional (simulada)
+- Sistema operativo: Windows 10
+- Estado inicial: Sistema recién instalado (resultado del Caso 01)
+- Contexto: Post-instalación del sistema operativo
+
+---
+
+## CONTEXTO TÉCNICO
 
 Después de una instalación limpia de Windows, el sistema puede utilizar
-controladores genéricos o no reconocer correctamente algunos dispositivos.
-Es responsabilidad del soporte TI verificar e instalar los drivers necesarios.
+controladores genéricos o no contar con drivers específicos para ciertos
+dispositivos.  
+Es responsabilidad del área de soporte TI verificar el estado de los drivers e
+instalar los necesarios para evitar problemas de rendimiento o funcionalidad.
 
 ---
 
-## 🔹 1️⃣ REVISIÓN DEL ESTADO INICIAL DE LOS DRIVERS
+## 1. REVISIÓN DEL ESTADO INICIAL DE LOS DRIVERS
 
-### Acciones realizadas:
+### Acciones realizadas
 
-- Acceso al **Administrador de dispositivos**
-- Revisión del estado de los dispositivos
-- Identificación de advertencias o drivers genéricos
+- Acceso al Administrador de dispositivos.
+- Revisión general del estado del hardware.
+- Identificación de dispositivos con advertencias o controladores faltantes.
 
-### 📸 Captura:
+### Evidencia
 
-| Archivo | Contenido |
-|------|----------|
-| 01-administrador-dispositivos.png | Estado inicial de los dispositivos |
-
----
-
-## 🔹 2️⃣ IDENTIFICACIÓN DE DRIVERS FALTANTES
-
-### Acciones realizadas:
-
-- Identificación de dispositivos sin controlador
-- Revisión de adaptadores de red, video y otros componentes
-- Análisis de iconos de advertencia
-
-### 📸 Captura:
-
-| Archivo | Contenido |
-|------|----------|
-| 02-drivers-faltantes.png | Dispositivos sin driver |
+| Archivo | Descripción |
+|------|------------|
+| 01-administrador-dispositivos.png | Vista inicial del Administrador de dispositivos |
 
 ---
 
-## 🔹 3️⃣ INSTALACIÓN DE DRIVERS NECESARIOS
+## 2. IDENTIFICACIÓN DE DRIVERS FALTANTES
 
-### Acciones realizadas:
+### Acciones realizadas
 
-- Instalación de drivers mediante:
-  - Windows Update
-  - Controladores disponibles del sistema
-- Prioridad de instalación:
-  - Chipset
-  - Video
-  - Red
+- Revisión de la sección “Otros dispositivos”.
+- Identificación de dispositivos con ícono de advertencia.
+- Confirmación de controladores no instalados correctamente.
 
-### 📸 Captura:
+### Evidencia
 
-| Archivo | Contenido |
-|------|----------|
-| 03-instalacion-drivers.png | Proceso de instalación |
+| Archivo | Descripción |
+|------|------------|
+| 02-drivers-faltantes.png | Dispositivo sin driver identificado |
 
 ---
 
-## 🔹 4️⃣ REINICIO DEL SISTEMA
+## 3. INSTALACIÓN DE DRIVERS NECESARIOS
 
-### Acciones realizadas:
+### Acciones realizadas
 
-- Reinicio del sistema para aplicar correctamente los controladores
-- Inicio normal del sistema operativo
+- Acceso a Windows Update.
+- Descarga e instalación de actualizaciones disponibles.
+- Aplicación de controladores proporcionados automáticamente por el sistema.
 
----
+### Método utilizado
 
-## 🔹 5️⃣ VERIFICACIÓN FINAL DE DRIVERS
+- Windows Update (método estándar en entornos institucionales y virtualizados).
 
-### Acciones realizadas:
+### Evidencia
 
-- Nueva revisión del Administrador de dispositivos
-- Confirmación de ausencia de errores o advertencias
-- Validación del correcto reconocimiento del hardware
-
-### 📸 Captura:
-
-| Archivo | Contenido |
-|------|----------|
-| 04-drivers-correctos.png | Drivers correctamente instalados |
+| Archivo | Descripción |
+|------|------------|
+| 03-instalacion-drivers.png | Proceso de descarga e instalación de drivers |
 
 ---
 
-## 🔹 6️⃣ VALIDACIÓN FUNCIONAL DEL SISTEMA
+## 4. REINICIO DEL SISTEMA
 
-### Acciones realizadas:
+### Acciones realizadas
 
-- Verificación de:
-  - Resolución de pantalla correcta
-  - Funcionamiento de red
-  - Estabilidad general del sistema
+- Reinicio del sistema para aplicar correctamente los controladores instalados.
+- Inicio normal del sistema operativo después del reinicio.
 
-### 📸 Captura:
-
-| Archivo | Contenido |
-|------|----------|
-| 05-resolucion-correcta.png | Resolución de pantalla ajustada |
+(No se requiere evidencia gráfica para este paso).
 
 ---
 
-## ✅ RESULTADO FINAL
+## 5. VERIFICACIÓN FINAL DE LOS DRIVERS
 
-- Drivers críticos instalados correctamente
-- Dispositivos reconocidos sin errores
-- Sistema estable y operativo
-- Equipo listo para configuraciones posteriores
+### Acciones realizadas
+
+- Nueva revisión del Administrador de dispositivos.
+- Confirmación de que no existen dispositivos con advertencias.
+- Validación del reconocimiento correcto del hardware.
+
+### Evidencia
+
+| Archivo | Descripción |
+|------|------------|
+| 04-drivers-correctos.png | Administrador de dispositivos sin errores |
 
 ---
 
-## 📁 ESTRUCTURA DE CAPTURAS
+## RESULTADO FINAL
+
+- Drivers críticos instalados correctamente.
+- No se detectan errores en el Administrador de dispositivos.
+- Hardware reconocido de forma adecuada.
+- Sistema estable y listo para configuraciones posteriores.
+
+---
+
+## ESTRUCTURA DE CAPTURAS
+
 screenshots/caso-02/
 
 ├── 01-administrador-dispositivos.png
@@ -140,12 +130,11 @@ screenshots/caso-02/
 
 ├── 03-instalacion-drivers.png
 
-├── 04-drivers-correctos.png
-
-└── 05-resolucion-correcta.png
-
+└── 04-drivers-correctos.png
 
 ---
 
-**Este caso documenta una fase clave del soporte TI**, validando que el sistema
-esté correctamente preparado para su uso productivo.
+Este caso documenta un proceso realista de soporte TI posterior a la
+instalación del sistema operativo, siguiendo prácticas estándar de verificación
+y corrección de controladores.
+
