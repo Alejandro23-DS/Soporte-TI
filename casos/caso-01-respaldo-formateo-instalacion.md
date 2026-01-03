@@ -63,7 +63,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 - Arranque del equipo desde el medio de instalación de Windows
 - Carga inicial del instalador
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -107,7 +107,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 - Selección de **Instalación personalizada (avanzada)** para una instalación limpia
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -123,7 +123,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 - Confirmación de espacio no asignado
 - Creación automática de nuevas particiones por el instalador
 
-📌 **Este paso constituye el formateo lógico del equipo.**
+ **Este paso constituye el formateo lógico del equipo.**
 
 ###  Evidencia
 
@@ -206,4 +206,4 @@ screenshots/caso-01/
 
 ---
 
-❗ **Este caso refleja un flujo real de soporte TI**, priorizando la protección de datos del usuario y la correcta reinstalación del sistema operativo.
+**Este caso refleja un flujo real de soporte TI**, priorizando la protección de datos del usuario y la correcta reinstalación del sistema operativo.
