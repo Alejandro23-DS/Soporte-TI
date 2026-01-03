@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 OBJETIVO
+## OBJETIVO
 
 Realizar un proceso completo de *soporte técnico profesional*, que incluya:
 
@@ -20,7 +20,7 @@ El objetivo principal es *evitar la pérdida de información* y entregar un equi
 
 ---
 
-## 🖥️ ESCENARIO
+## ESCENARIO
 
 - **Equipo:** Estación de trabajo institucional (simulada)
 - **Estado inicial:** Equipo con Windows instalado previamente
@@ -29,7 +29,7 @@ El objetivo principal es *evitar la pérdida de información* y entregar un equi
 
 ---
 
-## 🧠 CONSIDERACIÓN PROFESIONAL PREVIA
+## CONSIDERACIÓN PROFESIONAL PREVIA
 
 Antes de realizar cualquier formateo, se ejecuta un **respaldo de la información del usuario**, siguiendo buenas prácticas de soporte TI.  
 El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco sin iniciar el sistema original.
@@ -43,7 +43,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 - Acceso a la carpeta del usuario
 - Copia de archivos importantes a un medio externo
 
-### 📸 Evidencias
+### Evidencias
 
 | Archivo | Descripción |
 |------|-----------|
@@ -52,11 +52,11 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 | `02-carpeta-usuario.png` | Carpeta del usuario accesible |
 | `03-respaldo-finalizado.png` | Respaldo completado |
 
-📌 **Resultado:** Información del usuario respaldada correctamente antes del formateo.
+**Resultado:** Información del usuario respaldada correctamente antes del formateo.
 
 ---
 
-## 🔹 1️⃣ INICIO DEL INSTALADOR DE WINDOWS
+##  1️⃣ INICIO DEL INSTALADOR DE WINDOWS
 
 ### Acciones realizadas
 
@@ -71,7 +71,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 2️⃣ CONFIGURACIÓN REGIONAL
+##  2️⃣ CONFIGURACIÓN REGIONAL
 
 ### Acciones realizadas
 
@@ -79,7 +79,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 - Configuración regional
 - Selección del tipo de teclado
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -87,13 +87,13 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 3️⃣ INICIO DE LA INSTALACIÓN
+##  3️⃣ INICIO DE LA INSTALACIÓN
 
 ### Acciones realizadas
 
 - Selección de la opción **“Instalar ahora”**
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -101,7 +101,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 4️⃣ TIPO DE INSTALACIÓN
+##  4️⃣ TIPO DE INSTALACIÓN
 
 ### Acciones realizadas
 
@@ -115,7 +115,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 5️⃣ GESTIÓN DE DISCO (FORMATEO LÓGICO)
+##  5️⃣ GESTIÓN DE DISCO (FORMATEO LÓGICO)
 
 ### Acciones realizadas
 
@@ -125,7 +125,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 📌 **Este paso constituye el formateo lógico del equipo.**
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -133,7 +133,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 6️⃣ INSTALACIÓN DEL SISTEMA OPERATIVO
+##  6️⃣ INSTALACIÓN DEL SISTEMA OPERATIVO
 
 ### Acciones realizadas
 
@@ -141,7 +141,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 - Instalación automática del sistema
 - Reinicios controlados del equipo
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -149,7 +149,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 7️⃣ CONFIGURACIÓN INICIAL DEL SISTEMA (OOBE)
+## 7️⃣ CONFIGURACIÓN INICIAL DEL SISTEMA (OOBE)
 
 ### Acciones realizadas
 
@@ -159,14 +159,14 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 8️⃣ PRIMER INICIO DE SESIÓN
+## 8️⃣ PRIMER INICIO DE SESIÓN
 
 ### Acciones realizadas
 
 - Acceso al escritorio de Windows
 - Verificación visual del entorno
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -174,14 +174,14 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## 🔹 9️⃣ VERIFICACIÓN DEL SISTEMA
+##  9️⃣ VERIFICACIÓN DEL SISTEMA
 
 ### Acciones realizadas
 
 - Verificación de versión del sistema operativo
 - Validación del estado general del sistema
 
-### 📸 Evidencia
+###  Evidencia
 
 | Archivo | Descripción |
 |------|-----------|
@@ -189,7 +189,7 @@ El respaldo se realiza desde un **entorno WinPE**, permitiendo acceder al disco 
 
 ---
 
-## ✅ RESULTADO FINAL
+##  RESULTADO FINAL
 
 - ✔ Información del usuario respaldada correctamente
 - ✔ Formateo lógico realizado
