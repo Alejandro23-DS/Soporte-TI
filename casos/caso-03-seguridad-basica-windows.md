@@ -133,7 +133,7 @@ Después de instalar el sistema operativo y los controladores, es responsabilida
 
 ---
 
-## ESTRUCTURA DE CAPTURAS
+📁 ## ESTRUCTURA DE CAPTURAS
 
 screenshots/caso-03/
 
